@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   Check_scretes:
-    name: username and password check
+    name: username and password
     runs-on: ubuntu-latest
     steps:
       - run: echo ${{ secrets.EXPO_CLI_USERNAME }}
